@@ -16,6 +16,7 @@ public class LayoutView extends VerticalLayout {
         ComboBox<String> comboBox01 = new ComboBox<>("ComboBox");
         VerticalLayout verticalLayout = new VerticalLayout();
         verticalLayout.setPadding(true);
+        verticalLayout.setSpacing(true);
 
         verticalLayout.add(datePicker01);
         verticalLayout.add(textField01);
@@ -28,6 +29,8 @@ public class LayoutView extends VerticalLayout {
         ComboBox<String> comboBox02 = new ComboBox<>("ComboBox");
         HorizontalLayout horizontalLayout = new HorizontalLayout();
         horizontalLayout.setPadding(true);
+        horizontalLayout.setSpacing(true);
+
         horizontalLayout.add(datePicker02);
         horizontalLayout.add(textField02);
         horizontalLayout.add(comboBox02);
